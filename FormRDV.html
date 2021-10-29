@@ -1,0 +1,59 @@
+<fieldset>
+    <link rel="stylesheet" href="FormRDV.css">
+<form name="first-myform" action="pris-de-rdv.php" method="GET">
+<p>
+    Sélectionnez l'objet du rendez-vous :<br /> <br />
+<select name="objet">
+    <option value="achat">Achat</option>
+    <option value="entretien">Entretien</option>
+    <option value="reparation">Réparation</option>
+</select>
+</p>
+<p>
+    <input type="radio" name="civi" value="Mme" /> Madame
+    <input type="radio" name="civi" value="Mr" /> Monsieur
+</p>
+<p>
+    Votre Nom : <br />
+    <input type="text" name="prenom" />
+</p>
+<p>
+    Votre Prénom : <br />
+    <input type="text" name="nom" />
+</p>
+<p>
+    Votre email : <br />
+    <input type="email" />
+</p>
+<p>
+La date : <br />
+<input type="date" />
+</p>
+<p>
+    L'heure : <br />
+    <input type="datetime-local" />
+</p>
+<p>
+    Commentaire : <br />
+    <textarea name="" cols="50" rows="10"></textarea> <br />
+   <div class="test1">
+    <button>
+    Valider  <br />
+</button> </div> 
+<div class="test2">
+<button>
+    Supprimer  <br /> 
+</button>
+</div>
+</p>
+<p>
+    Recommencer : <br />
+    <input type="reset" />
+</p>
+<p>
+    Envoyer le formulaire : <br />
+    <input type="submit" />
+</p>
+
+</form>
+</fieldset>

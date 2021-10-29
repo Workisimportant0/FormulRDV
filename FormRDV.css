@@ -1,0 +1,5 @@
+body {
+    background-image: url(voiture.jpg);
+}
+.test1 button:first-child{color: darkgreen;}
+.test2 button:first-child{color: darkred;}
